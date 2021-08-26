@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <malloc.h>
 #include <stdlib.h>
 
 struct node   
 {  
     int data;  
-    struct node *next;   
+    struct node *next;  //stores address of next element 
 };  
-struct node *head; 
+struct node *head; //stores address of first element
 
 void beginsert ();
 void insert();
